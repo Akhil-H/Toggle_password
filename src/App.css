@@ -1,0 +1,48 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.main_container{
+    width: 100%;
+    height: 100vh;
+    background-color: #680753;
+    position: relative;
+}
+.form_container{
+    width: 40%;
+    height: 40%;
+    background-color: #38042d;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+    color: aliceblue;
+}
+input{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px ;
+    font-size: large;
+  
+}
+.eyecontainer{
+    float: right;
+    color: #0a0108;
+    position: absolute;
+    z-index: 10;
+    right: 5px;
+    top: 25px;
+    
+}
+.input_container{
+    width: 100%;
+    position: relative;
+}
